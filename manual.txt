@@ -1,0 +1,3 @@
+- Import trip.sql sebagai database
+- Untuk akses pada browser ketik localhost/trip atau localhost/trip/login
+- Login dengan menggunakan username = 'amalia' dan password = 'amalia'

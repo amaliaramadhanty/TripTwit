@@ -1,0 +1,10 @@
+<?php
+class models extends CI_Model{
+	
+	function ambil(){
+		$query=$this->db->query("select * from akademik");
+		$this->db->order_by('nim,jurusan,ASC');
+		return $query->result();
+	}
+    }
+?>
